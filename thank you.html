@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thank you</title>
+ <link rel="stylesheet" href="thank you.css">   
+</head>
+<body>
+<!-- Slide Show -->
+<section>
+   <img class="mySlides" src="image/thank 1.png"
+   style="width: 600px;">
+   <img class="mySlides" src="image/thank2.png"
+   style="width: 600px;">
+   <img class="mySlides" src="image/thank-you-for-your-purchase-templates-design-187a6c15a8835b0f0955f116314f3991_screen.jpg"
+   style="width:600px;">
+ </section>
+ <script>
+   // Automatic Slideshow - change image every 3 seconds
+   var myIndex = 0;
+   carousel();
+   
+   function carousel() {
+     var i;
+     var x = document.getElementsByClassName("mySlides");
+     for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+     }
+     myIndex++;
+     if (myIndex > x.length) {myIndex = 1}
+     x[myIndex-1].style.display = "block";
+     setTimeout(carousel, 3000);
+   }
+   </script>
+<!--thank-you-for-your-purchase-->   
+ <header>
+   Thank you for your purchase and support 
+</header>  
+ <table>
+         <tr>
+              <td>
+                   <h1>address(mohan oxford india thane phase1 a wing 104)</h1>      
+              </td>
+                
+         </tr>
+       <tr>
+           <td>
+                <h1>name of custamer(pradeep-ramanuj-mishra)</h1>            
+           </td>
+         
+             <h1>age(36)</h1>
+         </td>
+        
+             <td>
+                  <h1>date of birth(3/10/1986(pradeep-ramanuj-mishra))</h1>
+             </td>
+         
+           
+             
+       </tr>     
+ </table>
+    <h1>
+        --thank-you-for-your-purchase--
+    </h1>
+
+</body>
+</html>
